@@ -1,5 +1,5 @@
 // arrays en javascript
-fruits   = ["manzana", "banana", "naranja", "uva", "melon"];
+const fruits = ["manzana", "banana", "naranja", "uva", "melon"];
 //console.log(frutas);
 
 fruits.push("piña");
