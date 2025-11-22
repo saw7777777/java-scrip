@@ -13,3 +13,4 @@ alert(age);
 alert(genero);
 alert(isStudent);
 alert(precio);
+
