@@ -19,38 +19,38 @@
 // };
 // console.log(person.fullName());
 
-//has una claculadora utilisando methodos y this 
+// //has una claculadora utilisando methodos y this 
 
-const calculator = {
-    result: 0,
-    add: function (num) {
-        this.result += num;
-        return this;
-    },
-    subtract: function (num) {
-        this.result -= num;
-        return this;
-    },
-    multiply: function (num) {
-        this.result *= num;
-        return this;
-    },
-    divide: function (num) {
-        if (num === 0) {
-            console.error("Cannot divide by zero!");
-            return this;
-        }
-        this.result /= num;
-        return this;
-    },
-    clear: function () {
-        this.result = 0;
-        return this;
-    },
-    getResult: function () {
-        return this.result;
-    }
-};
+// const calculator = {
+//     result: 0,
+//     add: function (num) {
+//         this.result += num;
+//         return this;
+//     },
+//     subtract: function (num) {
+//         this.result -= num;
+//         return this;
+//     },
+//     multiply: function (num) {
+//         this.result *= num;
+//         return this;
+//     },
+//     divide: function (num) {
+//         if (num === 0) {
+//             console.error("Cannot divide by zero!");
+//             return this;
+//         }
+//         this.result /= num;
+//         return this;
+//     },
+//     clear: function () {
+//         this.result = 0;
+//         return this;
+//     },
+//     getResult: function () {
+//         return this.result;
+//     }
+// };
 
 // Ejemplo de uso:
 // console.log(calculator.add(5).subtract(2).multiply(3).divide(2).getResult()); // (5 - 2) * 3 / 2 = 4.5
